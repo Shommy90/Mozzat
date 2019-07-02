@@ -1,27 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <nav className="navigation">
       <ul className="flex">
         <li>
-          <Link to="/">home</Link>
+          <NavLink exact to="/" activeClassName="active">
+            home
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">about</Link>
+          <NavLink to="/about" activeClassName="active">
+            about
+          </NavLink>
         </li>
         <li>
-          <Link to="/gallery">gallery</Link>
+          <NavLink to="/gallery" activeClassName="active">
+            gallery
+          </NavLink>
         </li>
         <li>
-          <Link to="/products">products</Link>
+          <NavLink to="/products" activeClassName="active">
+            products
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact">contact</Link>
+          <NavLink to="/contact" activeClassName="active">
+            contact
+          </NavLink>
         </li>
         <li>
-          <Link to="/b2b">b2b</Link>
+          <NavLink to="/b2b" activeClassName="active">
+            b2b
+          </NavLink>
         </li>
       </ul>
     </nav>
