@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container flex justify-between align-center flex-wrap">
         <div className="logo">
           <Link to="/">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
           </Link>
         </div>
 

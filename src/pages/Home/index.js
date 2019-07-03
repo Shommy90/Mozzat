@@ -10,7 +10,8 @@ const Home = () => {
       style={{
         backgroundImage: `url(${homeBg})`,
         backgroundSize: "auto",
-        backgroundPosition: "center"
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
       }}
     >
       <div
@@ -19,11 +20,11 @@ const Home = () => {
       >
         <div>
           <div style={{ width: "205px", height: "234px", margin: "0 auto" }}>
-            <img src={homeLogo} />
+            <img src={homeLogo} alt="home logo" />
           </div>
 
           <div style={{ maxWidth: "581px", width: "100%", height: "230px" }}>
-            <img src={mozzatHome} />
+            <img src={mozzatHome} alt="welcome" />
           </div>
         </div>
       </div>
