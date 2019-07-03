@@ -106,9 +106,14 @@ nav,
 section {
   display: block;
 }
+html {
+  min-height: 100%;
+}
 body {
+  min-height: 100vh;
   line-height: 1;
   font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }
 ol,
 ul {
@@ -130,11 +135,28 @@ table {
   border-spacing: 0;
 }
 
+img {
+  width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+}
+
 .container {
   max-width: 1700px;
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.content {
+  padding: 100px 0;
 }
 
 .flex {
