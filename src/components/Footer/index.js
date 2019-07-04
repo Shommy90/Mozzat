@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import followUsImg from "../../assets/images/follow-us.png";
+import Socials from "../Socials";
 
 const Footer = () => {
   return (
@@ -18,24 +18,7 @@ const Footer = () => {
           <div style={{ marginRight: 15 }}>
             <img src={followUsImg} alt="follow us" />
           </div>
-
-          <ul className="flex">
-            <li>
-              <Link to="">
-                <i className="fab fa-facebook-f" />
-              </Link>
-            </li>
-            <li>
-              <Link to="">
-                <i className="fab fa-instagram" />
-              </Link>
-            </li>
-            <li>
-              <Link to="">
-                <i className="fab fa-twitter" />
-              </Link>
-            </li>
-          </ul>
+          <Socials />
         </div>
       </div>
     </div>
