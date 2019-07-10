@@ -16,11 +16,11 @@ const Home = () => {
           backgroundImage: `url(${homeBg})`
         }}
       >
-        <div
-          className="content flex align-center justify-center"
-          style={{ height: "100%" }}
-        >
-          <div>
+        <div className="content" style={{ height: "100%" }}>
+          <div
+            className="flex align-center"
+            style={{ marginTop: "100px", flexDirection: "column" }}
+          >
             <div style={{ width: "205px", height: "234px", margin: "0 auto" }}>
               <img src={homeLogo} alt="home logo" />
             </div>
