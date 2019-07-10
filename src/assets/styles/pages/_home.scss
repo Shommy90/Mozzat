@@ -1,11 +1,88 @@
 .home {
+  padding-bottom: 90px;
+
   .home-section {
     min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1300px;
+    position: relative;
+    z-index: 10;
   }
 
-  .products-carousel {
-    background-color: rgba($red, 0.7);
-    height: 100%;
-    padding: 100px 0 50px;
+  .products-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1177px;
+    position: relative;
+    top: -100px;
+    z-index: 9;
+  }
+
+  .recipes-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -170px;
+    margin-bottom: -170px;
+
+    .recipes-inner-bg {
+      padding: 170px 0 130px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  .gallery-section {
+    padding: 25px;
+
+    ul.gallery-section__list {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        width: 25%;
+        height: 335px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+      li:hover .gallery__li-inner {
+        display: none;
+      }
+
+      li:hover .gallery__bottom-name {
+        display: flex;
+      }
+
+      .gallery__li-inner {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+      }
+
+      .gallery__bottom-name {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background: rgba($red, 0.8);
+        align-items: center;
+        justify-content: center;
+        display: none;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 100;
+        font-size: 22px;
+        cursor: default;
+      }
+    }
+  }
+
+  .about-section {
   }
 }

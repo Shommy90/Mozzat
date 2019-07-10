@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./assets/styles/reset.scss";
 import "./assets/styles/main.scss";
+import "./assets/styles/base.scss";
 import App from "./App";
 
 const app = (

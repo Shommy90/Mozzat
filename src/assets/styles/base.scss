@@ -1,0 +1,100 @@
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 1700px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 100px 0;
+}
+
+.flex {
+  display: flex;
+
+  &.align-center {
+    align-items: center;
+  }
+
+  &.align-start {
+    align-items: flex-start;
+  }
+
+  &.align-end {
+    align-items: flex-end;
+  }
+
+  &.justify-center {
+    justify-content: center;
+  }
+
+  &.justify-start {
+    justify-content: flex-start;
+  }
+
+  &.justify-end {
+    justify-content: flex-end;
+  }
+
+  &.justify-between {
+    justify-content: space-between;
+  }
+
+  &.justify-around {
+    justify-content: space-around;
+  }
+
+  &.flex-col {
+    flex-direction: column;
+  }
+
+  &.flex-row {
+    flex-direction: row;
+  }
+
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  &.flex-no-wrap {
+    flex-wrap: nowrap;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-btn {
+  width: 270px;
+  height: 60px;
+  border: 2px solid #000;
+  background: transparent;
+  color: #000;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 55px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.button {
+}
