@@ -166,7 +166,7 @@ const Home = () => {
         <div
           style={{
             backgroundImage: `url(${contactSectionBg})`,
-            backgroundPosition: "top right",
+            backgroundPosition: "center right",
             backgroundRepeat: "no-repeat",
             height: "100%",
             padding: "70px 0",
