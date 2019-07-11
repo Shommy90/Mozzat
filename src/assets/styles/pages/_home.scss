@@ -84,5 +84,12 @@
   }
 
   .about-section {
+    background-size: cover;
+
+    .about-section__inner {
+      padding: 85px 0;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+    }
   }
 }

@@ -20,6 +20,7 @@ const ProductsSection = () => {
             <img
               src={productsTitle}
               style={{ width: "311px", height: "82px" }}
+              alt="products title"
             />
           </div>
 

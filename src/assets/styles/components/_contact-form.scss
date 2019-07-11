@@ -1,0 +1,20 @@
+.contact-form {
+  input,
+  textarea {
+    border: 1px solid #737373;
+    border-radius: 5px;
+    background: transparent;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    outline: none;
+  }
+
+  textarea {
+    height: 115px;
+    resize: none;
+    font-family: "Barlow";
+  }
+}
