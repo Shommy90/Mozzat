@@ -1,0 +1,98 @@
+.carousel-wrap {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  height: 700px;
+
+  .carousel__inner-slide {
+    margin: 0 auto;
+    max-width: 900px;
+    height: 550px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    img {
+      width: auto;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .carousel__wrapper {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    height: 550px;
+  }
+
+  .carousel__dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .carousel__dot {
+    display: flex;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: none;
+
+    @media screen and (max-width: 1040px) {
+      padding: 20px 20px;
+      font-size: 20px;
+    }
+  }
+
+  .carousel__dot--selected {
+    border-bottom: 4px solid #fff;
+  }
+
+  .carousel-btn {
+    border: none;
+    background: none;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    color: transparent;
+    color: $red;
+    background: #fff;
+    border-radius: 50%;
+    outline: none;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .carousel-btn__back {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    i {
+      padding-right: 3px;
+    }
+  }
+
+  .carousel-btn__next {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    i {
+      padding-left: 3px;
+    }
+  }
+}
