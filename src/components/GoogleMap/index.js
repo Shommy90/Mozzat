@@ -6,6 +6,8 @@ import addressIcon from "../../assets/images/address-icon.png";
 import mailIcon from "../../assets/images/mail-icon.png";
 import phoneIcon from "../../assets/images/phone-icon.png";
 import workHours from "../../assets/images/work-hours.png";
+import pin1 from "../../assets/images/pin1.png";
+import pin2 from "../../assets/images/pin2.png";
 
 const mapStyles = {
   width: "100%",
@@ -21,19 +23,22 @@ export class GoogleMap extends React.Component {
           latitude: 24.590719,
           longitude: 46.672717,
           storeNumber: 1,
-          address: "Al-Suwaidi - Aisha bint Abi Baker St."
+          address: "Al-Suwaidi - Aisha bint Abi Baker St.",
+          pin: pin1
         },
         {
           latitude: 24.664911,
           longitude: 46.682978,
           storeNumber: 2,
-          address: "Awal Plaza - Takhassusi St."
+          address: "Awal Plaza - Takhassusi St.",
+          pin: pin2
         },
         {
           latitude: 24.658227,
           longitude: 46.669399,
           storeNumber: 3,
-          address: "Ash Sharafiyah - 6478 Al Yaseen Valley."
+          address: "Ash Sharafiyah - 6478 Al Yaseen Valley.",
+          pin: pin2
         }
       ],
       storeNumber: 1,
@@ -51,6 +56,7 @@ export class GoogleMap extends React.Component {
             lat: store.latitude,
             lng: store.longitude
           }}
+          icon={store.pin}
           onClick={() =>
             this.setState({
               storeNumber: this.state.stores[index].storeNumber,
