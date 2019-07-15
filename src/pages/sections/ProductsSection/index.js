@@ -69,13 +69,18 @@ const ProductsSection = () => {
             >
               <div className="carousel__dots-wrapper">
                 {dots.map((dot, index) => (
-                  <Dot slide={index} children={dot.children} disabled={false} />
+                  <Dot
+                    key={index}
+                    slide={index}
+                    children={dot.children}
+                    disabled={false}
+                  />
                 ))}
               </div>
               <div className="carousel__wrapper">
                 <Slider style={{ height: "600px" }}>
                   {slides.map((slide, index) => (
-                    <Slide index={index}>
+                    <Slide key={index} index={index}>
                       <img src={slide.img} alt={slide.img} />
                     </Slide>
                   ))}

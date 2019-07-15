@@ -1,0 +1,35 @@
+.google-map-wrapper {
+  position: relative;
+  height: 680px;
+  width: 100%;
+
+  .shop-info {
+    max-width: 500px;
+    width: 100%;
+    min-height: 500px;
+    padding: 45px 55px;
+    position: absolute;
+    // z-index: 5;
+    left: 100px;
+    top: 100px;
+    color: #fff;
+    background-color: #000;
+    background-position: left center;
+  }
+
+  .shop-info__title {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 45px;
+    text-align: center;
+
+    > span {
+      font-weight: 600;
+    }
+  }
+
+  img {
+    width: auto;
+  }
+}
