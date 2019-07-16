@@ -95,7 +95,7 @@ export class GoogleMap extends React.Component {
                   </div>
                 </div>
                 <div>
-                  <p style={{ marginBottom: "5px" }}>
+                  <p style={{ marginBottom: "5px", fontSize: "20px" }}>
                     {this.state.storeAddress}
                   </p>
                   <p style={{ fontWeight: "600" }}>Saudi Arabia, Riyadh</p>
@@ -159,5 +159,5 @@ export class GoogleMap extends React.Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: ""
+  apiKey: "AIzaSyBHUUMp7u5jykei6lbEkYyFKRbySijOYhM"
 })(GoogleMap);
