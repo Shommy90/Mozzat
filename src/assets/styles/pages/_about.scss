@@ -1,3 +1,7 @@
+.about {
+  padding-bottom: 90px;
+}
+
 .about__header {
   height: 950px;
   background-size: cover;
@@ -23,4 +27,22 @@
   z-index: 3;
   height: 800px;
   top: -200px;
+}
+
+.mobile-app {
+  height: 660px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -200px;
+}
+
+.mobile-app-bg {
+  width: 240px;
+  height: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -29,7 +29,7 @@ const Home = () => {
           backgroundImage: `url(${homeBg})`
         }}
       >
-        <div className="content" style={{ height: "100%" }}>
+        <div style={{ height: "100%", padding: "100px 0" }}>
           <div
             className="flex align-center"
             style={{ marginTop: "100px", flexDirection: "column" }}
