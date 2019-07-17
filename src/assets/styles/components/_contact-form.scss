@@ -10,6 +10,10 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
     outline: none;
+
+    &:focus {
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
   }
 
   textarea {

@@ -1,4 +1,22 @@
-.contact-wrapper {
+.contact-holder-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   max-width: 900px;
   width: 100%;
+  height: 640px;
+  margin: 0 auto;
+
+  > div {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+
+.contact-socials {
+  margin-bottom: 20px;
+
+  i {
+    background: $red;
+  }
 }

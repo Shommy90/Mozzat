@@ -138,3 +138,8 @@ table {
 img {
   width: 100%;
 }
+
+input,
+textarea {
+  box-sizing: border-box;
+}
