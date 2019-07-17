@@ -7,7 +7,7 @@ import "./assets/styles/main.scss";
 import App from "./App";
 
 const app = (
-  <BrowserRouter>
+  <BrowserRouter basename="/Mozzat">
     <App />
   </BrowserRouter>
 );
