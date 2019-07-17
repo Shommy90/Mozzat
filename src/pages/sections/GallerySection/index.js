@@ -14,31 +14,31 @@ const GallerySection = () => {
     <div className="gallery-section">
       <ul className="gallery-section__list">
         <li style={{ backgroundImage: `url(${img01})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">t-bone beef</div>
         </li>
         <li style={{ backgroundImage: `url(${img02})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">striplion wagyu</div>
         </li>
         <li style={{ backgroundImage: `url(${img03})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">lamb rack</div>
         </li>
         <li style={{ backgroundImage: `url(${img04})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">beef burger</div>
         </li>
         <li style={{ backgroundImage: `url(${img05})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">beef ribs</div>
         </li>
         <li style={{ backgroundImage: `url(${img06})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">beef jucy lucy</div>
         </li>
         <li style={{ backgroundImage: `url(${img07})` }}>
-          <div className="gallery__li-inner">inner</div>
+          <div className="gallery__li-inner" />
           <div className="gallery__bottom-name">awsal beef</div>
         </li>
         <li
