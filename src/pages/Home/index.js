@@ -1,5 +1,5 @@
 import React from "react";
-import homeBg from "../../assets/images/header-bg.png";
+import homeBg from "../../assets/images/header-bg1.jpg";
 import homeLogo from "../../assets/images/logo-header.png";
 import mozzatHome from "../../assets/images/Mozzat.png";
 import recipesBg from "../../assets/images/recipes-bg.png";
@@ -29,10 +29,13 @@ const Home = () => {
           backgroundImage: `url(${homeBg})`
         }}
       >
-        <div style={{ height: "100%", padding: "100px 0" }}>
+        <div
+          style={{ height: "100%", padding: "100px 0" }}
+          className="flex justify-center align-center"
+        >
           <div
             className="flex align-center"
-            style={{ marginTop: "100px", flexDirection: "column" }}
+            style={{ flexDirection: "column" }}
           >
             <div style={{ width: "205px", height: "234px", margin: "0 auto" }}>
               <img src={homeLogo} alt="home logo" />
@@ -72,12 +75,13 @@ const Home = () => {
       >
         <div className="about-section__inner">
           <div className="container flex align-center">
-            <div style={{ width: "50%", paddingRight: "100px" }}>
+            <div style={{ width: "50%", paddingRight: "60px" }}>
               <h4
                 style={{
-                  fontSize: "48px",
+                  fontSize: "42px",
                   fontWeight: "500",
-                  marginBottom: "50px"
+                  marginBottom: "40px",
+                  textAlign: "center"
                 }}
               >
                 Few words <span style={{ fontWeight: "700" }}>about us</span>
@@ -86,8 +90,9 @@ const Home = () => {
               <p
                 style={{
                   marginBottom: "80px",
-                  fontSize: "36px",
-                  lineHeight: "1.2em"
+                  fontSize: "30px",
+                  lineHeight: "1.1em",
+                  textAlign: "center"
                 }}
               >
                 Mozzat established in Saudi Arabia, Riyadh in 2018 and our
@@ -99,12 +104,10 @@ const Home = () => {
               <Link
                 to="/about"
                 className="link-btn"
-                style={{ marginBottom: "80px" }}
+                style={{ margin: "0 auto" }}
               >
                 read more
               </Link>
-
-              <Socials />
             </div>
 
             <div className="flex align-center" style={{ width: "50%" }}>
