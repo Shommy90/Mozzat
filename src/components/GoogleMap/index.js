@@ -24,7 +24,7 @@ export class GoogleMap extends React.Component {
           longitude: 46.672717,
           storeNumber: 1,
           address: "Al-Suwaidi - Aisha bint Abi Baker St.",
-          pin: pin1
+          pin: pin2
         },
         {
           latitude: 24.664911,

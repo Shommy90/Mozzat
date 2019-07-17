@@ -61,7 +61,6 @@ const ProductsSection = () => {
           <div className="carousel-wrap">
             <CarouselProvider
               dragEnabled={false}
-              isPlaying={true}
               interval={4000}
               naturalSlideWidth={100}
               naturalSlideHeight={125}
