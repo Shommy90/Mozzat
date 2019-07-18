@@ -1,0 +1,35 @@
+.b2b-content {
+  min-height: 595px;
+}
+
+.b2b-holder {
+  margin: 0 auto;
+  margin-top: -75px;
+  max-width: 1260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b2b-box {
+  max-width: 600px;
+  width: 100%;
+  height: 450px;
+  margin: 0 15px;
+  //   border: 2px solid #ececec;
+  padding: 50px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.b2b-number {
+  color: $red;
+  font-size: 34px;
+  line-height: 60px;
+  font-weight: 500;
+}
