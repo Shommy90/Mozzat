@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03ab8e97d9720cd891bb002b251c8c11",
+    "revision": "cf0ba9afbef3ab1fe7fdacaf6dc7c8cb",
     "url": "/Mozzat/index.html"
   },
   {
-    "revision": "8326c75ebccd63e8b4b0",
+    "revision": "1641a75d1372cd779113",
     "url": "/Mozzat/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "e5db23cc4b730677aa78",
-    "url": "/Mozzat/static/css/main.dbdec3a4.chunk.css"
+    "revision": "b9965913f807201cdd2b",
+    "url": "/Mozzat/static/css/main.ac188900.chunk.css"
   },
   {
-    "revision": "8326c75ebccd63e8b4b0",
-    "url": "/Mozzat/static/js/2.3bd1c5cc.chunk.js"
+    "revision": "1641a75d1372cd779113",
+    "url": "/Mozzat/static/js/2.f1015f63.chunk.js"
   },
   {
-    "revision": "e5db23cc4b730677aa78",
-    "url": "/Mozzat/static/js/main.1c854759.chunk.js"
+    "revision": "b9965913f807201cdd2b",
+    "url": "/Mozzat/static/js/main.bb72d79b.chunk.js"
   },
   {
     "revision": "605918599d0c654c9b3e",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20e5e21571bc5aa199c3010714570745",
     "url": "/Mozzat/static/media/awsal-beef.20e5e215.png"
+  },
+  {
+    "revision": "8dede1a41804dee816d7cd9361bcebc9",
+    "url": "/Mozzat/static/media/b2b-bg.8dede1a4.png"
   },
   {
     "revision": "864f5ad854b0df5fc90082d04804bed6",
@@ -96,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mozzat/static/media/gallery-bg.070b3848.png"
   },
   {
-    "revision": "e1be6d812797a306d9826d27c47e5eff",
-    "url": "/Mozzat/static/media/header-bg.e1be6d81.png"
+    "revision": "33039ea4aca8f78331746fdba0164b35",
+    "url": "/Mozzat/static/media/header-bg1.33039ea4.jpg"
   },
   {
     "revision": "5bf28d7306ccfd4292890f8a8f419906",
@@ -150,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c659b4298c453266dc6a83ab1e2b1070",
     "url": "/Mozzat/static/media/mobile-app-bg.c659b429.png"
+  },
+  {
+    "revision": "7b63ed0be6a73f6d73ab02934c36a032",
+    "url": "/Mozzat/static/media/newsletter-bg.7b63ed0b.png"
   },
   {
     "revision": "50648f34525377058baffd7e7221d9b2",
