@@ -58,7 +58,9 @@ const B2B = () => {
               member of our sales team.
             </p>
 
-            <p className="b2b-number">+ 966 500 600 307</p>
+            <a href="tel:+966-500-600-307" className="b2b-number">
+              + 966 500 600 307
+            </a>
           </div>
 
           <div className="b2b-box">

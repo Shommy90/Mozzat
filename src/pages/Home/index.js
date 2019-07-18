@@ -14,7 +14,6 @@ import anyQuestions from "../../assets/images/any-questions.png";
 
 import ProductsSection from "../sections/ProductsSection";
 import GallerySection from "../sections/GallerySection";
-import Socials from "../../components/Socials";
 
 import { Link } from "react-router-dom";
 import GoogleMap from "../../components/GoogleMap";
