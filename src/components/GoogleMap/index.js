@@ -80,42 +80,49 @@ export class GoogleMap extends React.Component {
           {this.displayMarkers()}
 
           <div
-            className="shop-info"
+            className="shop-info flex flex-col justify-between"
             style={{ backgroundImage: `url(${shopInfoBg})` }}
           >
-            <h2 className="shop-info__title">
-              mozzat <span>shop {this.state.storeNumber}</span>
-            </h2>
+            <div>
+              <h2 className="shop-info__title">
+                mozzat <span>shop {this.state.storeNumber}</span>
+              </h2>
 
-            <div style={{ marginBottom: "40px" }}>
-              <div style={{ marginBottom: "15px" }} className="flex">
-                <div style={{ width: "40px" }}>
+              <div style={{ marginBottom: "40px" }}>
+                <div style={{ marginBottom: "15px" }} className="flex">
+                  <div style={{ width: "40px" }}>
+                    <div>
+                      <img src={addressIcon} alt={addressIcon} />
+                    </div>
+                  </div>
                   <div>
-                    <img src={addressIcon} alt={addressIcon} />
+                    <p style={{ marginBottom: "5px", fontSize: "20px" }}>
+                      {this.state.storeAddress}
+                    </p>
+                    <p style={{ fontWeight: "600" }}>Saudi Arabia, Riyadh</p>
                   </div>
                 </div>
-                <div>
-                  <p style={{ marginBottom: "5px", fontSize: "20px" }}>
-                    {this.state.storeAddress}
-                  </p>
-                  <p style={{ fontWeight: "600" }}>Saudi Arabia, Riyadh</p>
-                </div>
-              </div>
-              <div style={{ marginBottom: "15px" }} className="flex">
-                <div style={{ width: "40px" }}>
-                  <div>
-                    <img src={mailIcon} alt={mailIcon} />
+                <div style={{ marginBottom: "15px" }} className="flex">
+                  <div style={{ width: "40px" }}>
+                    <div>
+                      <img src={mailIcon} alt={mailIcon} />
+                    </div>
                   </div>
+                  <div style={{ fontWeight: "600" }}>office@mozzat.com.sa</div>
                 </div>
-                <div style={{ fontWeight: "600" }}>office@mozzat.com.sa</div>
-              </div>
-              <div style={{ marginBottom: "15px" }} className="flex">
-                <div style={{ width: "40px" }}>
-                  <div>
-                    <img src={phoneIcon} alt={phoneIcon} />
+
+                {this.state.storeNumber === 1 ? (
+                  <div style={{ marginBottom: "15px" }} className="flex">
+                    <div style={{ width: "40px" }}>
+                      <div>
+                        <img src={phoneIcon} alt={phoneIcon} />
+                      </div>
+                    </div>
+                    <div style={{ fontWeight: "600" }}>966-500600307</div>
                   </div>
-                </div>
-                <div style={{ fontWeight: "600" }}>966-500600307</div>
+                ) : (
+                  ""
+                )}
               </div>
             </div>
 
