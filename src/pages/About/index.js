@@ -14,17 +14,20 @@ import comingSoonTitle from "../../assets/images/coming-soon-title.png";
 import pin2 from "../../assets/images/pin2.png";
 import appStoreIcon from "../../assets/images/app-store-icon.png";
 import googlePlayIcon from "../../assets/images/google-play-icon.png";
+import Newsletter from "../../components/Newsletter";
 
 const About = () => {
   return (
     <div className="about">
       <div
-        className="about__header"
+        className="page-header"
         style={{ backgroundImage: `url(${aboutBg})` }}
       >
-        <div style={{ background: "rgba(0,0,0, .7)", height: "100%" }}>
-          <div style={{ paddingTop: "400px", textAlign: "center" }}>
-            <img style={{ width: "auto" }} src={aboutTitle} alt="about-title" />
+        <div className="dark-bg">
+          <div className="header-title-holder">
+            <div style={{ display: "inline-block" }}>
+              <img src={aboutTitle} alt="title" />
+            </div>
           </div>
         </div>
       </div>
@@ -124,6 +127,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Newsletter />
 
       <div
         className="mobile-app"

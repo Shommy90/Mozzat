@@ -12,29 +12,21 @@
 }
 
 .about-journey {
-  position: relative;
-  min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: 2;
-  top: -100px;
   padding: 100px 0;
 }
 
 .about__main-products {
-  position: relative;
-  z-index: 3;
   height: 800px;
-  top: -200px;
 }
 
 .mobile-app {
-  height: 660px;
+  height: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: -200px;
 }
 
 .mobile-app-bg {
