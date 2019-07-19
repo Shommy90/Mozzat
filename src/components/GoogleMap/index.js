@@ -23,26 +23,24 @@ export class GoogleMap extends React.Component {
           latitude: 24.590719,
           longitude: 46.672717,
           storeNumber: 1,
-          address: "Al-Suwaidi - Aisha bint Abi Baker St.",
-          pin: pin2
+          address: "Al-Suwaidi - Aisha bint Abi Baker St."
         },
         {
           latitude: 24.664911,
           longitude: 46.682978,
           storeNumber: 2,
-          address: "Awal Plaza - Takhassusi St.",
-          pin: pin2
+          address: "Awal Plaza - Takhassusi St."
         },
         {
           latitude: 24.658227,
           longitude: 46.669399,
           storeNumber: 3,
-          address: "Ash Sharafiyah - 6478 Al Yaseen Valley.",
-          pin: pin2
+          address: "Ash Sharafiyah - 6478 Al Yaseen Valley."
         }
       ],
       storeNumber: 1,
-      storeAddress: "Al-Suwaidi - Aisha bint Abi Baker St."
+      storeAddress: "Al-Suwaidi - Aisha bint Abi Baker St.",
+      selectedMarker: 0
     };
   }
 
@@ -56,11 +54,12 @@ export class GoogleMap extends React.Component {
             lat: store.latitude,
             lng: store.longitude
           }}
-          icon={store.pin}
+          icon={this.state.selectedMarker === index ? pin1 : pin2}
           onClick={() =>
             this.setState({
               storeNumber: this.state.stores[index].storeNumber,
-              storeAddress: this.state.stores[index].address
+              storeAddress: this.state.stores[index].address,
+              selectedMarker: index
             })
           }
         />
