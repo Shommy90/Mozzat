@@ -6,8 +6,8 @@ import addressIcon from "../../assets/images/address-icon.png";
 import mailIcon from "../../assets/images/mail-icon.png";
 import phoneIcon from "../../assets/images/phone-icon.png";
 import workHours from "../../assets/images/work-hours.png";
-import pin1 from "../../assets/images/pin1.png";
-import pin2 from "../../assets/images/pin2.png";
+import markerBig from "../../assets/images/pin1.png";
+import markerSmall from "../../assets/images/pin2.png";
 
 const mapStyles = {
   width: "100%",
@@ -54,7 +54,7 @@ export class GoogleMap extends React.Component {
             lat: store.latitude,
             lng: store.longitude
           }}
-          icon={this.state.selectedMarker === index ? pin1 : pin2}
+          icon={this.state.selectedMarker === index ? markerBig : markerSmall}
           onClick={() =>
             this.setState({
               storeNumber: this.state.stores[index].storeNumber,
