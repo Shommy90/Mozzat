@@ -30,7 +30,7 @@ const ProductItem = () => {
       <div className="container flex">
         <div className="product-item__left">
           <div className="product-item__img-holder">
-            <img src={productItem} alt="product image" />
+            <img src={productItem} alt="product" />
           </div>
 
           <div>products-carousel</div>
