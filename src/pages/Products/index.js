@@ -2,7 +2,7 @@ import React from "react";
 
 import productsBg from "../../assets/images/products-bg.png";
 import productsTitle from "../../assets/images/products-title.png";
-import serviceBg from "../../assets/images/service-bg.png";
+import serviceBg from "../../assets/images/paralax-img.jpg";
 import deliveryIcon from "../../assets/images/delivery-icon.png";
 import checkoutIcon from "../../assets/images/checkout-icon.png";
 import memberIcon from "../../assets/images/member-icon.png";

@@ -7,7 +7,7 @@ import ourRecipes from "../../assets/images/our-recipes.png";
 import aboutBg from "../../assets/images/about-bg.png";
 import leftMeat from "../../assets/images/left-meat.png";
 import rightMeat from "../../assets/images/right-meat.png";
-import shopSectionBg from "../../assets/images/shop-section-bg.png";
+import shopSectionBg from "../../assets/images/paralax-img.jpg";
 import foodCollection from "../../assets/images/food-collection.png";
 import contactSectionBg from "../../assets/images/contact-section-bg.png";
 import anyQuestions from "../../assets/images/any-questions.png";
