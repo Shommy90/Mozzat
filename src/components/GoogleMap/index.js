@@ -74,7 +74,7 @@ export class GoogleMap extends React.Component {
           style={mapStyles}
           google={this.props.google}
           zoom={13}
-          initialCenter={{ lat: 24.627408, lng: 46.652763 }}
+          initialCenter={{ lat: 24.636293, lng: 46.651089 }}
         >
           {this.displayMarkers()}
 

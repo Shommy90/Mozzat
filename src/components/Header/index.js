@@ -6,7 +6,7 @@ import Navigation from "../Navigation";
 const Header = () => {
   return (
     <div className="header flex align-center">
-      <div className="container flex justify-between align-center flex-wrap">
+      <div className="container-wide flex justify-between align-center flex-wrap">
         <div className="logo">
           <Link to="/">
             <img src={logo} alt="logo" />

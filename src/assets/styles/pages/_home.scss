@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     position: relative;
     z-index: 10;
+    background-color: #000;
   }
 
   .products-section {
@@ -89,6 +90,20 @@
       padding: 85px 0;
       height: 100%;
       background: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .shop-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .products-carousel {
+    .link-btn:hover {
+      background: #fff;
+      color: $red !important;
     }
   }
 }

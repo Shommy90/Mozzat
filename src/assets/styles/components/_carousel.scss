@@ -22,6 +22,10 @@
     }
   }
 
+  .carousel__slide-focus-ring {
+    outline: none;
+  }
+
   .carousel__wrapper {
     position: relative;
     max-width: 900px;
@@ -94,5 +98,9 @@
     i {
       padding-left: 3px;
     }
+  }
+
+  button:disabled {
+    opacity: 0.5;
   }
 }

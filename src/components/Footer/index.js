@@ -5,7 +5,7 @@ import Socials from "../Socials";
 const Footer = () => {
   return (
     <div className="footer flex align-center">
-      <div className="container flex justify-between align-center">
+      <div className="container-wide flex justify-between align-center">
         <p style={{ fontStyle: "italic", fontWeight: 300 }}>
           © 2019{" "}
           <span style={{ color: "#bc2631", fontWeight: 600, fontSize: 20 }}>

@@ -36,7 +36,13 @@ const Products = () => {
 
       <div
         className="products-service"
-        style={{ backgroundImage: `url(${serviceBg})` }}
+        style={{
+          backgroundImage: `url(${serviceBg})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundAttachment: "fixed"
+        }}
       >
         <div
           style={{

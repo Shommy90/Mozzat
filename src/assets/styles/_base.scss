@@ -14,6 +14,13 @@
   margin: 0 auto;
 }
 
+.container-wide {
+  max-width: 1600px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .content {
   padding-bottom: 90px;
 }
@@ -87,6 +94,11 @@ a {
   transition: all 0.1s ease;
   font-size: 18px;
   font-weight: 500;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
 }
 
 .section-title {
@@ -115,6 +127,10 @@ a {
   border: none;
   cursor: pointer;
   outline: none;
+
+  &:hover {
+    background: darken($red, 10%);
+  }
 }
 
 .page-header {
@@ -122,6 +138,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #000;
 }
 
 .dark-bg {
