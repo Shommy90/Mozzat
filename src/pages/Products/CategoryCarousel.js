@@ -38,7 +38,8 @@ const CategoryCarousel = props => {
                       <p
                         style={{
                           fontSize: "20px",
-                          fontWeight: "500"
+                          fontWeight: "500",
+                          color: "#242424"
                         }}
                       >
                         {product.name}
