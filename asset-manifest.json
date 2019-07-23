@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mozzat/static/css/main.7ffc5ed1.chunk.css",
-    "main.js": "/Mozzat/static/js/main.7dcd544c.chunk.js",
-    "main.js.map": "/Mozzat/static/js/main.7dcd544c.chunk.js.map",
+    "main.js": "/Mozzat/static/js/main.1046a101.chunk.js",
+    "main.js.map": "/Mozzat/static/js/main.1046a101.chunk.js.map",
     "runtime~main.js": "/Mozzat/static/js/runtime~main.a5e8bc08.js",
     "runtime~main.js.map": "/Mozzat/static/js/runtime~main.a5e8bc08.js.map",
     "static/css/2.1fd2b905.chunk.css": "/Mozzat/static/css/2.1fd2b905.chunk.css",
     "static/js/2.a20d0c7f.chunk.js": "/Mozzat/static/js/2.a20d0c7f.chunk.js",
     "static/js/2.a20d0c7f.chunk.js.map": "/Mozzat/static/js/2.a20d0c7f.chunk.js.map",
     "index.html": "/Mozzat/index.html",
-    "precache-manifest.6015f9cdae26782d781b28b96a70b16b.js": "/Mozzat/precache-manifest.6015f9cdae26782d781b28b96a70b16b.js",
+    "precache-manifest.8a08238bb7e3d1f033ae927cea220ab5.js": "/Mozzat/precache-manifest.8a08238bb7e3d1f033ae927cea220ab5.js",
     "service-worker.js": "/Mozzat/service-worker.js",
     "static/css/2.1fd2b905.chunk.css.map": "/Mozzat/static/css/2.1fd2b905.chunk.css.map",
     "static/css/main.7ffc5ed1.chunk.css.map": "/Mozzat/static/css/main.7ffc5ed1.chunk.css.map",
