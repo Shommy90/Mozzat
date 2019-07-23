@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be28ab5d12c04a0eb4277c34c6972f68",
+    "revision": "a2a47ac24cb86ffb3e11a2819c50c866",
     "url": "/Mozzat/index.html"
   },
   {
-    "revision": "df6cb095dad35a9bd941",
+    "revision": "01e9afa26defba23de47",
     "url": "/Mozzat/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "12510b913537ec79271b",
+    "revision": "3b79630f4c0ebacc6a2f",
     "url": "/Mozzat/static/css/main.9e9d31bc.chunk.css"
   },
   {
-    "revision": "df6cb095dad35a9bd941",
-    "url": "/Mozzat/static/js/2.59fc54df.chunk.js"
+    "revision": "01e9afa26defba23de47",
+    "url": "/Mozzat/static/js/2.705add53.chunk.js"
   },
   {
-    "revision": "12510b913537ec79271b",
-    "url": "/Mozzat/static/js/main.f9bba46d.chunk.js"
+    "revision": "3b79630f4c0ebacc6a2f",
+    "url": "/Mozzat/static/js/main.52658526.chunk.js"
   },
   {
     "revision": "605918599d0c654c9b3e",
@@ -160,6 +160,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mozzat/static/media/newsletter-bg.7b63ed0b.png"
   },
   {
+    "revision": "59cab9b36ab01173e8e9329c4a1347e1",
+    "url": "/Mozzat/static/media/paralax-img.59cab9b3.jpg"
+  },
+  {
     "revision": "6edd18a687b9e33df5c187bf17b6314a",
     "url": "/Mozzat/static/media/product-item-bg.6edd18a6.png"
   },
@@ -182,14 +186,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65c0471c05de18dbd9afd4340e3ae8c7",
     "url": "/Mozzat/static/media/right-meat.65c0471c.png"
-  },
-  {
-    "revision": "c8d5a3ae8c002e7802d0b9ee627217a1",
-    "url": "/Mozzat/static/media/service-bg.c8d5a3ae.png"
-  },
-  {
-    "revision": "12f659dfa8c2331858cfc43fadcecb51",
-    "url": "/Mozzat/static/media/shop-section-bg.12f659df.png"
   },
   {
     "revision": "52be36516efaad18ff57486f5e324ff4",
