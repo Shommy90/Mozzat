@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2a47ac24cb86ffb3e11a2819c50c866",
+    "revision": "648965899da864ca8cfd3eb45478e927",
     "url": "/Mozzat/index.html"
   },
   {
-    "revision": "01e9afa26defba23de47",
+    "revision": "eb648152bd4bedae0a9f",
     "url": "/Mozzat/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "3b79630f4c0ebacc6a2f",
-    "url": "/Mozzat/static/css/main.9e9d31bc.chunk.css"
+    "revision": "a23b2f02befba73fc223",
+    "url": "/Mozzat/static/css/main.6052d36a.chunk.css"
   },
   {
-    "revision": "01e9afa26defba23de47",
-    "url": "/Mozzat/static/js/2.705add53.chunk.js"
+    "revision": "eb648152bd4bedae0a9f",
+    "url": "/Mozzat/static/js/2.fbed484e.chunk.js"
   },
   {
-    "revision": "3b79630f4c0ebacc6a2f",
-    "url": "/Mozzat/static/js/main.52658526.chunk.js"
+    "revision": "a23b2f02befba73fc223",
+    "url": "/Mozzat/static/js/main.56272ff9.chunk.js"
   },
   {
     "revision": "605918599d0c654c9b3e",
@@ -154,6 +154,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c659b4298c453266dc6a83ab1e2b1070",
     "url": "/Mozzat/static/media/mobile-app-bg.c659b429.png"
+  },
+  {
+    "revision": "bf0881118afdd094a04db6d447a89822",
+    "url": "/Mozzat/static/media/modal-awsal-beef.bf088111.png"
+  },
+  {
+    "revision": "943aabe10bd4b263f5e4c8ce15a64d30",
+    "url": "/Mozzat/static/media/modal-beef-burger.943aabe1.png"
+  },
+  {
+    "revision": "a4094e23aa22e6c74bb33f3df4e03aa9",
+    "url": "/Mozzat/static/media/modal-beef-jucy-lucy.a4094e23.png"
+  },
+  {
+    "revision": "3b8c87bc0573be9f1583b499c47a3bd6",
+    "url": "/Mozzat/static/media/modal-beef-ribs.3b8c87bc.png"
+  },
+  {
+    "revision": "d53ee688e1eb59d23a63790f105b92c6",
+    "url": "/Mozzat/static/media/modal-lamb-rack.d53ee688.png"
+  },
+  {
+    "revision": "aec9bc4ba882b9d16c43385c88bb4ef8",
+    "url": "/Mozzat/static/media/modal-striplion-wagyu.aec9bc4b.png"
+  },
+  {
+    "revision": "2da3cbf3225836a7da44f71b69ab4250",
+    "url": "/Mozzat/static/media/modal-t-bone-beef.2da3cbf3.png"
   },
   {
     "revision": "7b63ed0be6a73f6d73ab02934c36a032",
