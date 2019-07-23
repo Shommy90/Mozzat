@@ -48,6 +48,7 @@
         background-size: cover;
         background-position: center;
         position: relative;
+        cursor: pointer;
       }
 
       li:hover .gallery__li-inner {
@@ -79,6 +80,7 @@
         font-weight: 100;
         font-size: 22px;
         cursor: default;
+        cursor: pointer;
       }
     }
   }
@@ -105,5 +107,38 @@
       background: #fff;
       color: $red !important;
     }
+  }
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  z-index: 99999;
+}
+
+.ReactModal__Content {
+  // border: 1px solid rgb(0, 0, 0) !important;
+  // background: rgb(0, 0, 0) !important;
+  overflow: auto;
+  border-radius: 10px !important;
+  outline: none;
+  padding: 30px !important;
+  max-width: 700px !important;
+  width: 100% !important;
+  height: 700px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+}
+
+.close-modal-btn {
+  position: absolute;
+  color: #000;
+  font-size: 26px;
+  top: 3px;
+  right: 8px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
   }
 }
