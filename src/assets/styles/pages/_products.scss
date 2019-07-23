@@ -64,6 +64,34 @@
     outline: none;
   }
 
+  .carousel__dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .carousel__dot {
+    display: flex;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: none;
+
+    @media screen and (max-width: 1040px) {
+      padding: 20px 20px;
+      font-size: 20px;
+    }
+  }
+
+  .carousel__dot--selected {
+    border-bottom: 4px solid #fff;
+  }
+
   .carousel__dot {
     border-bottom: 1px solid #242424;
     color: #242424;
