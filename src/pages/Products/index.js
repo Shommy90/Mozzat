@@ -10,19 +10,23 @@ import memberIcon from "../../assets/images/member-icon.png";
 import { Link } from "react-router-dom";
 import Newsletter from "../../components/Newsletter";
 
+// LOCAL FAKE DATA
+import { data } from "../../data/getAllProducts.json";
+
 class Products extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      products: [],
+      products: data,
       loading: false
     };
   }
 
   componentDidMount() {
-    fetch("http://jsonplaceholder.typicode.com/users")
-      .then(res => res.json())
-      .then(data => console.log(data));
+    // fetch("http://jsonplaceholder.typicode.com/users")
+    //   .then(res => res.json())
+    //   .then(data => console.log(data));
+    console.log(this.state.products);
   }
 
   render() {

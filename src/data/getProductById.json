@@ -1,0 +1,10 @@
+{
+  "data": {
+    "id": 1,
+    "name": "Product 1",
+    "description": "Description 1",
+    "price": 10,
+    "weight": 100,
+    "image": "http://localhost/storage/products/index.jpeg"
+  }
+}
