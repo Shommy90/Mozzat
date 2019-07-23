@@ -9,15 +9,13 @@ import memberIcon from "../../assets/images/member-icon.png";
 
 import { Link } from "react-router-dom";
 import Newsletter from "../../components/Newsletter";
-
-// LOCAL FAKE DATA
-import { data } from "../../data/getAllProducts.json";
+import ProducstCarousel from "./ProductsCarousel";
 
 class Products extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      products: data,
+      products: [],
       loading: false
     };
   }
@@ -49,8 +47,9 @@ class Products extends React.Component {
         </div>
 
         <div className="products-content" style={{ padding: "75px 0" }}>
-          <div className="container">products</div>
-          <Link to="/item">ITEM >></Link>
+          <div className="container">
+            <ProducstCarousel />
+          </div>
         </div>
 
         <div
