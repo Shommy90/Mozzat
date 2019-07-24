@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Mozzat/precache-manifest.ef1aa1ff60cc785e848354f3867b5b3d.js"
+  "/Mozzat/precache-manifest.da1dd9edb9ccd46c95393cfe902256a7.js"
 );
 
 self.addEventListener('message', (event) => {
