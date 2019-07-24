@@ -25,7 +25,7 @@ const CategoryCarousel = props => {
         visibleSlides={4}
       >
         <div className="category-carousel__wrapper">
-          <Slider style={{ height: "500px" }}>
+          <Slider style={{ height: "470px" }}>
             {props.products.map((product, index) => (
               <Slide key={index} index={index}>
                 <Link to="/item">
