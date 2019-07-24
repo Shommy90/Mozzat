@@ -13,7 +13,8 @@ import CategoryCarousel from "./CategoryCarousel";
 
 import lampRack from "../../assets/images/lamb-rack-carousel.png";
 
-const ProductsCarousel = () => {
+const ProductsCarousel = props => {
+  console.log("ProductsCarousel: ", props.products);
   const dots = [
     { children: "lamb" },
     { children: "beef" },

@@ -48,7 +48,7 @@ class Products extends React.Component {
 
         <div className="products-content" style={{ padding: "75px 0" }}>
           <div className="container">
-            <ProducstCarousel />
+            <ProducstCarousel products={this.state.products} />
           </div>
         </div>
 

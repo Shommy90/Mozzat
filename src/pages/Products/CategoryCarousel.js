@@ -21,7 +21,7 @@ const CategoryCarousel = props => {
         dragEnabled={false}
         naturalSlideWidth={100}
         naturalSlideHeight={700}
-        totalSlides={props.products.length}
+        totalSlides={5}
         visibleSlides={4}
       >
         <div className="category-carousel__wrapper">

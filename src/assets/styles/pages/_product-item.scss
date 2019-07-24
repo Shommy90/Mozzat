@@ -56,4 +56,54 @@
     margin-right: 15px;
     outline: none;
   }
+
+  .prod-item__carousel-holder {
+    height: 150px;
+    margin-top: 20px;
+    position: relative;
+    padding: 0 35px;
+    padding-left: 45px;
+  }
+
+  .prod-item-carousel__item {
+    width: 140px;
+    height: 140px;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .item-carousel__arrow {
+    display: block;
+    width: 20px;
+    height: 35px;
+    background: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &.left {
+      left: 0;
+      top: 35%;
+    }
+
+    &.right {
+      right: 0;
+      top: 35%;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
 }

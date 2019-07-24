@@ -1,14 +1,26 @@
 import React from "react";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
+
+import Socials from "../../components/Socials";
+import { Link } from "react-router-dom";
 
 import productItemBg from "../../assets/images/product-item-bg.png";
 import productItem from "../../assets/images/product-item.png";
 import cartIcon from "../../assets/images/cart-icon.png";
 import visa from "../../assets/images/visa.png";
 import masterCard from "../../assets/images/master-card.png";
+import arrowBackSmall from "../../assets/images/arrow-left-small.png";
+import arrowNextSmall from "../../assets/images/arrow-right-small.png";
 
-import Socials from "../../components/Socials";
-
-const ProductItem = () => {
+const ProductItem = props => {
+  console.log("ProductItem: ", props);
   return (
     <div className="product-item content">
       <div
@@ -33,7 +45,77 @@ const ProductItem = () => {
             <img src={productItem} alt="product" />
           </div>
 
-          <div>products-carousel</div>
+          <div className="prod-item__carousel-holder">
+            <CarouselProvider
+              dragEnabled={false}
+              naturalSlideWidth={100}
+              naturalSlideHeight={100}
+              visibleSlides={4}
+              totalSlides={7}
+            >
+              <div>
+                <Slider>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                  <Slide>
+                    <Link to="/item">
+                      <div className="prod-item-carousel__item">
+                        <img src={productItem} alt="product item" />
+                      </div>
+                    </Link>
+                  </Slide>
+                </Slider>
+                <ButtonBack
+                  className="item-carousel__arrow left"
+                  style={{ backgroundImage: `url(${arrowBackSmall})` }}
+                />
+                <ButtonNext
+                  className="item-carousel__arrow right"
+                  style={{ backgroundImage: `url(${arrowNextSmall})` }}
+                />
+              </div>
+            </CarouselProvider>
+          </div>
         </div>
         <div className="product-item__right">
           <h2 className="product-name">Lamb Rack Australian</h2>
