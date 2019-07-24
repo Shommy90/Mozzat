@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c2d115fb62186c9ca95d32bb0cb2954",
+    "revision": "64d24d337687237d8f67b011a1f571cf",
     "url": "/Mozzat/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mozzat/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "0a3288c88f657cb29a20",
-    "url": "/Mozzat/static/css/main.56dd6330.chunk.css"
+    "revision": "0b916e43e1458188d7bc",
+    "url": "/Mozzat/static/css/main.ad27e8b1.chunk.css"
   },
   {
     "revision": "afd40c80a3313da0210f",
     "url": "/Mozzat/static/js/2.2529d047.chunk.js"
   },
   {
-    "revision": "0a3288c88f657cb29a20",
-    "url": "/Mozzat/static/js/main.3ee94776.chunk.js"
+    "revision": "0b916e43e1458188d7bc",
+    "url": "/Mozzat/static/js/main.c8e3e3e6.chunk.js"
   },
   {
     "revision": "605918599d0c654c9b3e",
