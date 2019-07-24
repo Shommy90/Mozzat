@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f348e6ebc196f790d447f3445ce1a01",
+    "revision": "24ed62740c17b08dad7f2c3f42bcadcf",
     "url": "/Mozzat/index.html"
   },
   {
