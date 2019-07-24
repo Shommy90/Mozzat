@@ -35,10 +35,7 @@ class Products extends React.Component {
           style={{ backgroundImage: `url(${productsBg})` }}
         >
           <div className="dark-bg">
-            <div
-              className="header-title-holder"
-              style={{ paddingBottom: "70px" }}
-            >
+            <div className="header-title-holder">
               <div style={{ display: "inline-block" }}>
                 <img src={productsTitle} alt="title" />
               </div>

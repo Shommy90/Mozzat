@@ -36,7 +36,14 @@ const Home = () => {
             className="flex align-center"
             style={{ flexDirection: "column" }}
           >
-            <div style={{ width: "205px", height: "234px", margin: "0 auto" }}>
+            <div
+              style={{
+                width: "205px",
+                height: "234px",
+                margin: "0 auto",
+                marginTop: "50px"
+              }}
+            >
               <img src={homeLogo} alt="home logo" />
             </div>
 

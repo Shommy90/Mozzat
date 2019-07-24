@@ -29,10 +29,7 @@ const ProductItem = props => {
         style={{ backgroundImage: `url(${productItemBg})` }}
       >
         <div className="dark-bg">
-          <div
-            className="header-title-holder"
-            style={{ paddingBottom: "70px" }}
-          >
+          <div className="header-title-holder">
             <div style={{ display: "inline-block" }}>
               <img src={productTitle} alt="title" />
             </div>
