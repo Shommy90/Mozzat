@@ -26,6 +26,26 @@
     height: 300px;
   }
 
+  .prod-carousel-item__name {
+    font-size: 22px;
+    font-weight: 500;
+    color: #242424;
+  }
+
+  .prod-carousel-item__piece {
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+    font-weight: 500;
+  }
+
+  .prod-carousel-item__price {
+    font-size: 28px;
+    color: $red;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
   .carousel-arrow {
     display: block;
     width: 30px;

@@ -14,7 +14,7 @@ import arrowBack from "../../assets/images/arrow-left.png";
 import arrowNext from "../../assets/images/arrow-right.png";
 
 const CategoryCarousel = props => {
-  console.log(props);
+  console.log("CategoryCarousel: ", props);
   return (
     <div>
       <CarouselProvider
@@ -35,34 +35,12 @@ const CategoryCarousel = props => {
                     </div>
 
                     <div style={{ paddingTop: "10px" }}>
-                      <p
-                        style={{
-                          fontSize: "20px",
-                          fontWeight: "500",
-                          color: "#242424"
-                        }}
-                      >
-                        {product.name}
-                      </p>
-                      <p
-                        style={{
-                          fontSize: "16px",
-                          lineHeight: "20px",
-                          color: "#666",
-                          fontWeight: "500"
-                        }}
-                      >
+                      <p className="prod-carousel-item__name">{product.name}</p>
+                      <p className="prod-carousel-item__piece">
                         1 piece: {product.weight}
                       </p>
-                      <p
-                        style={{
-                          fontSize: "28px",
-                          color: "#bc2631",
-                          marginTop: "10px",
-                          fontWeight: "600"
-                        }}
-                      >
-                        {product.price}{" "}
+                      <p className="prod-carousel-item__price">
+                        {product.price}
                         <span style={{ fontSize: "22px" }}>ر.س</span>
                       </p>
                     </div>
