@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 
 import productItemBg from "../../assets/images/product-item-bg.png";
 import productItem from "../../assets/images/product-item.png";
+import productTitle from "../../assets/images/product-title.png";
 import cartIcon from "../../assets/images/cart-icon.png";
 import visa from "../../assets/images/visa.png";
 import masterCard from "../../assets/images/master-card.png";
@@ -33,7 +34,7 @@ const ProductItem = props => {
             style={{ paddingBottom: "70px" }}
           >
             <div style={{ display: "inline-block" }}>
-              {/* <img src={productsTitle} alt="title" /> */}
+              <img src={productTitle} alt="title" />
             </div>
           </div>
         </div>
