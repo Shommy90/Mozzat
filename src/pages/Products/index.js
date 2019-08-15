@@ -11,6 +11,10 @@ import { Link } from "react-router-dom";
 import Newsletter from "../../components/Newsletter";
 import ProducstCarousel from "./ProductsCarousel";
 
+// local data
+// import data from "../../data/getAllProducts.json";
+import categoriesData from "../../data/getAllCategories.json";
+
 class Products extends React.Component {
   constructor(props) {
     super(props);
@@ -21,13 +25,11 @@ class Products extends React.Component {
   }
 
   componentDidMount() {
-    // fetch("http://jsonplaceholder.typicode.com/users")
-    //   .then(res => res.json())
-    //   .then(data => console.log(data));
-    console.log(this.state.products);
+    this.setState({ products: categoriesData.data });
   }
 
   render() {
+    console.log("Product Categories: ", this.state.products);
     return (
       <div className="products content">
         <div

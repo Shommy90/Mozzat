@@ -20,6 +20,9 @@ import masterCard from "../../assets/images/master-card.png";
 import arrowBackSmall from "../../assets/images/arrow-left-small.png";
 import arrowNextSmall from "../../assets/images/arrow-right-small.png";
 
+// local data
+import data from "../../data/getProductById.json";
+
 const ProductItem = props => {
   console.log("ProductItem: ", props);
   return (

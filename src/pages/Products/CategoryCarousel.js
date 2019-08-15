@@ -14,7 +14,7 @@ import arrowBack from "../../assets/images/arrow-left.png";
 import arrowNext from "../../assets/images/arrow-right.png";
 
 const CategoryCarousel = props => {
-  console.log("CategoryCarousel: ", props);
+  console.log("categoryCarousel ", props);
   return (
     <div>
       <CarouselProvider
@@ -28,10 +28,10 @@ const CategoryCarousel = props => {
           <Slider style={{ height: "470px" }}>
             {props.products.map((product, index) => (
               <Slide key={index} index={index}>
-                <Link to="/item">
+                <Link to={`/products/${product.id}`}>
                   <div className="prod-carousel-item">
                     <div className="prod-carousel-item__img">
-                      <img src={product.img} alt="product item" />
+                      <img src={product.image} alt="product item" />
                     </div>
 
                     <div style={{ paddingTop: "10px" }}>

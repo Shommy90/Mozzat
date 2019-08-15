@@ -2,21 +2,45 @@
   "data": [
     {
       "id": 1,
-      "name": "Product Category 1",
+      "name": "Lamb",
       "products": [
         {
           "id": 1,
           "name": "Product 1",
           "description": "Description 1",
-          "price": 10,
-          "weight": 100,
+          "price": 25000,
+          "weight": 200,
           "image": "http://localhost/storage/products/index.jpeg"
         },
         {
           "id": 2,
           "name": "Product 2",
           "description": "Description 2",
-          "price": 20,
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "Product 3",
+          "description": "Description 3",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "Product 4",
+          "description": "Description 4",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "Product 5",
+          "description": "Description 5",
+          "price": 25000,
           "weight": 200,
           "image": "http://localhost/storage/products/index.jpeg"
         }
@@ -24,22 +48,230 @@
     },
     {
       "id": 2,
-      "name": "Product Category 2",
+      "name": "Beef",
       "products": [
         {
-          "id": 3,
-          "name": "Product 3",
-          "description": "Description 3",
-          "price": 30,
-          "weight": 300,
+          "id": 6,
+          "name": "Product 6",
+          "description": "Description 6",
+          "price": 25000,
+          "weight": 200,
           "image": "http://localhost/storage/products/index.jpeg"
         },
         {
-          "id": 4,
-          "name": "Product 4",
-          "description": "Description 4",
-          "price": 40,
-          "weight": 400,
+          "id": 7,
+          "name": "Product 7",
+          "description": "Description 7",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "Product 8",
+          "description": "Description 8",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "Product 9",
+          "description": "Description 9",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "Product 10",
+          "description": "Description 10",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chicken",
+      "products": [
+        {
+          "id": 11,
+          "name": "Product 11",
+          "description": "Description 11",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "Product 12",
+          "description": "Description 12",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "Product 13",
+          "description": "Description 13",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "Product 14",
+          "description": "Description 14",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "Product 15",
+          "description": "Description 15",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bread",
+      "products": [
+        {
+          "id": 16,
+          "name": "Product 16",
+          "description": "Description 16",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 17,
+          "name": "Product 17",
+          "description": "Description 17",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 18,
+          "name": "Product 18",
+          "description": "Description 18",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 19,
+          "name": "Product 19",
+          "description": "Description 19",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 20,
+          "name": "Product 20",
+          "description": "Description 20",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vegetables",
+      "products": [
+        {
+          "id": 21,
+          "name": "Product 21",
+          "description": "Description 21",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 22,
+          "name": "Product 22",
+          "description": "Description 22",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 23,
+          "name": "Product 23",
+          "description": "Description 23",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 24,
+          "name": "Product 24",
+          "description": "Description 24",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 25,
+          "name": "Product 25",
+          "description": "Description 25",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Accessories",
+      "products": [
+        {
+          "id": 26,
+          "name": "Product 26",
+          "description": "Description 26",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 27,
+          "name": "Product 27",
+          "description": "Description 27",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 28,
+          "name": "Product 28",
+          "description": "Description 28",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 29,
+          "name": "Product 29",
+          "description": "Description 29",
+          "price": 25000,
+          "weight": 200,
+          "image": "http://localhost/storage/products/index.jpeg"
+        },
+        {
+          "id": 30,
+          "name": "Product 30",
+          "description": "Description 30",
+          "price": 25000,
+          "weight": 200,
           "image": "http://localhost/storage/products/index.jpeg"
         }
       ]

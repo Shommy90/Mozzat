@@ -13,8 +13,8 @@ import CategoryCarousel from "./CategoryCarousel";
 
 import lampRack from "../../assets/images/lamb-rack-carousel.png";
 
-const ProductsCarousel = props => {
-  console.log("ProductsCarousel: ", props.products);
+const ProductsCarousel = ({ products }) => {
+  console.log("prod carousel: ", products);
   const dots = [
     { children: "lamb" },
     { children: "beef" },
@@ -63,23 +63,23 @@ const ProductsCarousel = props => {
         dragEnabled={false}
         naturalSlideWidth={100}
         naturalSlideHeight={100}
-        totalSlides={6}
+        totalSlides={products.lenght ? products.length : 6}
       >
         <div className="carousel__dots-wrapper">
-          {dots.map((dot, index) => (
+          {products.map((product, index) => (
             <Dot
               key={index}
               slide={index}
-              children={dot.children}
+              children={product.name}
               disabled={false}
             />
           ))}
         </div>
         <div className="carousel__wrapper">
           <Slider style={{ height: "500px" }}>
-            {dots.map((dot, index) => (
+            {products.map((product, index) => (
               <Slide key={index} index={index}>
-                <CategoryCarousel products={slides} />
+                <CategoryCarousel products={product.products} />
               </Slide>
             ))}
           </Slider>
