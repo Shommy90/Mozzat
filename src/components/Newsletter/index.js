@@ -8,11 +8,11 @@ const Newsletter = () => {
     <div className="newsletter" style={{ background: `url(${newsletterBg})` }}>
       <div className="newsletter-inner">
         <div className="newsletter-wrap flex alitn-center justify-between">
-          <div>
+          <div className="newsletter-title">
             <img src={newsletterTitle} alt="newsletter" />
           </div>
           <div className="form-holder">
-            <form style={{ marginLeft: "20px" }} className="flex align-center">
+            <form className="form-holder__form flex align-center">
               <div className="input-holder">
                 <input type="email" placeholder="Enter Your Email Address" />
               </div>

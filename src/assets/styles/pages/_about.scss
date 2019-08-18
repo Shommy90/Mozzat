@@ -17,8 +17,54 @@
   background-position: center;
 }
 
+.about-journey__inner {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 90px 0;
+
+  @media ($down: $md) {
+    padding: 50px 0;
+  }
+}
+.about-journey__inner--content {
+  padding: 0 100px;
+
+  @media ($down: $md) {
+    padding: 0 20px;
+  }
+}
+
+.about-journey__title {
+  font-size: 58px;
+  font-weight: 500;
+  margin-bottom: 50px;
+
+  @media ($down: $md) {
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+.about-journey__txt {
+  font-size: 34px;
+  line-height: 40px;
+  max-width: 840px;
+  width: 100%;
+
+  @media ($down: $md) {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
 .about__main-products {
   height: 800px;
+
+  @media ($down: $md) {
+    height: 450px;
+  }
 }
 
 .mobile-app {
@@ -26,6 +72,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media ($down: $md) {
+    height: auto;
+  }
 }
 
 .mobile-app-bg {
@@ -36,4 +86,47 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.mobile-app__content {
+  height: 100%;
+  @media ($down: $md) {
+    flex-direction: column-reverse;
+  }
+}
+
+.mobile-app__content--phones {
+  margin-right: 100px;
+  max-width: 450px;
+  width: 100%;
+
+  @media ($down: $xl) {
+    margin-right: 50px;
+  }
+  @media ($down: $md) {
+    margin: auto;
+    height: 320px;
+    max-width: 300px;
+
+    > img {
+      height: 100%;
+    }
+  }
+}
+
+.mobile-app__content--txt {
+  padding-bottom: 140px;
+
+  @media ($down: $md) {
+    padding: 30px 0;
+    margin: auto;
+  }
+}
+
+.mobile-app__content--pin {
+  margin: 40px 0;
+
+  @media ($down: $md) {
+    margin: 15px 0;
+  }
 }

@@ -26,7 +26,7 @@ const Contact = () => {
 
       <GoogleMap />
 
-      <div style={{ padding: "70px 0 100px" }}>
+      <div className="contact-wrapper">
         <div
           style={{
             width: "270px",

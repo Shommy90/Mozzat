@@ -50,7 +50,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div style={{ padding: "100px 0" }}>
+      <div className="gallery-wrapper__holder">
         <div className="gallery-wrapper">
           <div className="list-holder" style={{ marginBottom: "50px" }}>
             <ul className="gallery-list">

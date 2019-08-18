@@ -81,7 +81,7 @@ const Home = () => {
       >
         <div className="about-section__inner">
           <div className="container flex align-center">
-            <div style={{ width: "50%", paddingRight: "60px" }}>
+            <div className="about-section__inner--txt">
               <h4
                 style={{
                   fontSize: "42px",
@@ -116,15 +116,11 @@ const Home = () => {
               </Link>
             </div>
 
-            <div className="flex align-center" style={{ width: "50%" }}>
-              <div
-                style={{ marginRight: "30px", width: "427px", height: "702px" }}
-              >
+            <div className="flex align-center about-section__inner--imgs">
+              <div className="about-section__inner--imgs--left">
                 <img src={leftMeat} alt="left meat" />
               </div>
-              <div
-                style={{ marginRight: "30px", width: "318px", height: "573px" }}
-              >
+              <div className="about-section__inner--imgs--right">
                 <img src={rightMeat} alt="right meat" />
               </div>
             </div>
@@ -136,13 +132,7 @@ const Home = () => {
         className="shop-section"
         style={{ backgroundImage: `url(${shopSectionBg})` }}
       >
-        <div
-          style={{
-            padding: "100px",
-            background: "rgba(0,0,0, .8)",
-            height: "100%"
-          }}
-        >
+        <div className="shop-section__inner">
           <div style={{ width: "362px", height: "57px", margin: "0 auto" }}>
             <img src={foodCollection} alt="food collection" />
           </div>

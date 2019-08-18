@@ -59,13 +59,7 @@ class Products extends React.Component {
             backgroundAttachment: "fixed"
           }}
         >
-          <div
-            style={{
-              height: "100%",
-              background: "rgba(0,0,0, .7)",
-              padding: "140px 0"
-            }}
-          >
+          <div className="products-service__content">
             <div
               className="flex justify-between align-center"
               style={{ maxWidth: "1100px", width: "100%", margin: "0 auto" }}

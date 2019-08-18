@@ -23,7 +23,14 @@ const B2B = () => {
               <img src={b2bTitle} alt="title" />
             </div>
 
-            <p style={{ fontSize: "30px", color: "#fff" }}>
+            <p
+              style={{
+                fontSize: "30px",
+                color: "#fff",
+                textAlign: "center",
+                padding: "0 50px"
+              }}
+            >
               Thank for reaching us our sales team would be happy to contact
             </p>
           </div>

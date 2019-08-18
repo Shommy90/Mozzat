@@ -87,7 +87,7 @@ export class GoogleMap extends React.Component {
                 mozzat <span>shop {this.state.storeNumber}</span>
               </h2>
 
-              <div style={{ marginBottom: "40px" }}>
+              <div className="shop-info__address">
                 <div style={{ marginBottom: "15px" }} className="flex">
                   <div style={{ width: "40px" }}>
                     <div>
@@ -95,9 +95,7 @@ export class GoogleMap extends React.Component {
                     </div>
                   </div>
                   <div>
-                    <p style={{ marginBottom: "5px", fontSize: "20px" }}>
-                      {this.state.storeAddress}
-                    </p>
+                    <p className="shop-info__txt">{this.state.storeAddress}</p>
                     <p style={{ fontWeight: "600" }}>Saudi Arabia, Riyadh</p>
                   </div>
                 </div>

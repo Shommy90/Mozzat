@@ -3,6 +3,10 @@
   height: 680px;
   width: 100%;
 
+  @media ($down: $md) {
+    height: 600px;
+  }
+
   .shop-info {
     max-width: 500px;
     width: 100%;
@@ -15,6 +19,17 @@
     color: #fff;
     background-color: #000;
     background-position: left center;
+
+    @media ($down: $xl) {
+      left: 40px;
+      max-width: 450px;
+    }
+    @media ($down: $md) {
+      max-width: 390px;
+      padding: 15px;
+      left: 20px;
+      min-height: 400px;
+    }
   }
 
   .shop-info__title {
@@ -24,6 +39,11 @@
     margin-bottom: 45px;
     text-align: center;
 
+    @media ($down: $md) {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
     > span {
       font-weight: 600;
     }
@@ -31,5 +51,22 @@
 
   img {
     width: auto;
+  }
+}
+
+.shop-info__address {
+  margin-bottom: 40px;
+
+  @media ($down: $md) {
+    margin-bottom: 10px;
+  }
+}
+
+.shop-info__txt {
+  margin-bottom: 5px;
+  font-size: 20px;
+
+  @media ($down: $md) {
+    font-size: 18px;
   }
 }

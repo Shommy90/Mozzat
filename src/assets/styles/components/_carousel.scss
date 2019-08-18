@@ -13,11 +13,18 @@
     right: 0;
     text-align: center;
 
+    @media ($down: $md) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     img {
       width: auto;
 
-      @media screen and (max-width: 768px) {
+      @media ($down: $md) {
         width: 100%;
+        height: max-content;
       }
     }
   }
@@ -32,6 +39,10 @@
     width: 100%;
     margin: 0 auto;
     height: 550px;
+
+    @media ($down: $md) {
+      padding: 0 50px;
+    }
   }
 
   .carousel-btn__back {

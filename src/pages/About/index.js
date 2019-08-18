@@ -36,36 +36,14 @@ const About = () => {
         className="about-journey"
         style={{ backgroundImage: `url(${journeyBg})` }}
       >
-        <div
-          style={{
-            height: "100%",
-            background: "rgba(255,255,255, .8)",
-            padding: "90px 0"
-          }}
-        >
-          <div
-            className="container flex align-center justify-between"
-            style={{ padding: "0 100px" }}
-          >
+        <div className="about-journey__inner">
+          <div className="about-journey__inner--content container flex align-center justify-between">
             <div style={{ padding: "0 30px" }}>
-              <h2
-                style={{
-                  fontSize: "58px",
-                  fontWeight: "500",
-                  marginBottom: "50px"
-                }}
-              >
+              <h2 className="about-journey__title">
                 Our <span style={{ fontWeight: "600" }}>Journey</span>
               </h2>
 
-              <p
-                style={{
-                  fontSize: "34px",
-                  lineHeight: "40px",
-                  maxWidth: "840px",
-                  width: "100%"
-                }}
-              >
+              <p className="about-journey__txt">
                 Mozzat established in Saudi Arabia, Riyadh in 2018 and our
                 objectives is to provide the best quality of local and imported
                 meat and poultry in our shops. Our meats are carefully selected
@@ -145,17 +123,12 @@ const About = () => {
         }}
       >
         <div style={{ background: "rgba(0,0,0, .8)", height: "100%" }}>
-          <div className="container flex align-end" style={{ height: "100%" }}>
-            <div
-              style={{ marginRight: "100px", maxWidth: "450px", width: "100%" }}
-            >
+          <div className="mobile-app__content container flex align-end">
+            <div className="mobile-app__content--phones">
               <img src={appPhoneImg} alt="phones" />
             </div>
 
-            <div
-              className="flex flex-col justify-center align-center"
-              style={{ paddingBottom: "140px" }}
-            >
+            <div className="mobile-app__content--txt flex flex-col justify-center align-center">
               <div>
                 <img
                   src={comingSoonTitle}
@@ -170,7 +143,7 @@ const About = () => {
                 MOZZAT <span style={{ fontWeight: "600" }}>MOBILE APP!</span>
               </h2>
 
-              <div style={{ margin: "40px 0" }}>
+              <div className="mobile-app__content--pin">
                 <img
                   src={pin2}
                   alt="pin"

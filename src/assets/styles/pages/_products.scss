@@ -124,3 +124,13 @@
     border-bottom: 4px solid $red;
   }
 }
+
+.products-service__content {
+  padding: 140px 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+
+  @media ($down: $md) {
+    padding: 80px 0;
+  }
+}
