@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashRouter } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import ReactModal from "react-modal";
 
@@ -12,10 +12,10 @@ import ScrollMemory from "react-router-scroll-memory";
 ReactModal.setAppElement("#root");
 
 const app = (
-  <HashRouter>
+  <BrowserRouter>
     <ScrollMemory />
     <App />
-  </HashRouter>
+  </BrowserRouter>
 );
 
 ReactDOM.render(app, document.getElementById("root"));
