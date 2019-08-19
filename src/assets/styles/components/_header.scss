@@ -7,7 +7,9 @@
   width: 100%;
   z-index: 9999;
 
-  // display: none !important;
+  @media ($down: $md) {
+    display: none !important;
+  }
 
   .logo {
     width: 55px;
