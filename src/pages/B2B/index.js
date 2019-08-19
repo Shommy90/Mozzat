@@ -19,7 +19,13 @@ const B2B = () => {
             className="header-title-holder flex flex-col align-center justify-end"
             style={{ paddingBottom: "150px" }}
           >
-            <div style={{ display: "inline-block", marginBottom: "15px" }}>
+            <div
+              style={{
+                display: "inline-block",
+                marginBottom: "15px",
+                padding: "0 20px"
+              }}
+            >
               <img src={b2bTitle} alt="title" />
             </div>
 

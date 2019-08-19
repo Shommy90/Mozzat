@@ -36,18 +36,14 @@ const Home = () => {
             className="flex align-center"
             style={{ flexDirection: "column" }}
           >
-            <div
-              style={{
-                width: "205px",
-                height: "234px",
-                margin: "0 auto",
-                marginTop: "50px"
-              }}
-            >
+            <div className="home-image-holder">
               <img src={homeLogo} alt="home logo" />
             </div>
 
-            <div style={{ maxWidth: "581px", width: "100%", height: "230px" }}>
+            <div
+              className="home-title-holder"
+              style={{ maxWidth: "581px", width: "100%", height: "230px" }}
+            >
               <img src={mozzatHome} alt="welcome" />
             </div>
           </div>
@@ -133,18 +129,18 @@ const Home = () => {
         style={{ backgroundImage: `url(${shopSectionBg})` }}
       >
         <div className="shop-section__inner">
-          <div style={{ width: "362px", height: "57px", margin: "0 auto" }}>
+          <div
+            style={{
+              maxWidth: "362px",
+              width: "100%",
+              height: "57px",
+              margin: "0 auto"
+            }}
+          >
             <img src={foodCollection} alt="food collection" />
           </div>
 
-          <h3
-            style={{
-              fontSize: "48px",
-              fontWeight: "400",
-              color: "white",
-              textAlign: "center"
-            }}
-          >
+          <h3 className="shop-section__title">
             SHOP OUR PERFECT MEAT <span style={{ fontWeight: "600" }}>NOW</span>
             !
           </h3>
@@ -182,17 +178,7 @@ const Home = () => {
           >
             <img src={anyQuestions} alt="any questions" />
           </div>
-          <h3
-            style={{
-              fontSize: "36px",
-              fontWeight: "400",
-              textAlign: "center",
-              color: "#fff",
-              marginBottom: "35px"
-            }}
-          >
-            BE FREE AND CONTACT US
-          </h3>
+          <h3 className="contact-title">BE FREE AND CONTACT US</h3>
 
           <ContactForm />
         </div>

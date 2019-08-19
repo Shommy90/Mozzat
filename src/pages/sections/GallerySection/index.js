@@ -69,7 +69,7 @@ class GallerySection extends React.Component {
       const image = this.state.images[this.state.selectedImage];
 
       return (
-        <div style={{ height: "600px" }}>
+        <div className="modal-img-holder">
           <img src={image.bigImg} alt="modal img" style={{ width: "100%" }} />
         </div>
       );
@@ -87,7 +87,7 @@ class GallerySection extends React.Component {
             className="flex align-center justify-center"
             style={{ backgroundColor: "#f2f2f2", padding: "20px" }}
           >
-            <Link to="/gallery" className="link-btn">
+            <Link to="/gallery" className="link-btn gallery-section">
               view gallery
             </Link>
           </li>

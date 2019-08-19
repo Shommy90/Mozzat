@@ -11,6 +11,20 @@
     background-color: #000;
   }
 
+  .home-image-holder {
+    width: 205px;
+    height: 234px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .home-title-holder {
+    max-width: 581px;
+    width: 100%;
+    height: 230px;
+    padding: 0 20px;
+  }
+
   .products-section {
     background-size: cover;
     background-position: center;
@@ -19,6 +33,10 @@
     position: relative;
     top: -100px;
     z-index: 9;
+
+    @media ($down: $sm) {
+      min-height: 1070px;
+    }
   }
 
   .recipes-section {
@@ -32,6 +50,10 @@
     .recipes-inner-bg {
       padding: 170px 0 130px;
       background-color: rgba(0, 0, 0, 0.7);
+
+      @media ($down: $sm) {
+        padding: 120px 0 80px;
+      }
     }
   }
 
@@ -56,6 +78,11 @@
         @media ($down: $md) {
           height: 180px;
         }
+        @media ($down: $sm) {
+          width: 50%;
+          height: 130px;
+          border: 1px solid #fff;
+        }
       }
 
       li:hover .gallery__li-inner {
@@ -70,6 +97,10 @@
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.8);
+
+        @media ($down: $sm) {
+          background: rgba(0, 0, 0, 0.5);
+        }
       }
 
       .gallery__bottom-name {
@@ -88,6 +119,11 @@
         font-size: 22px;
         cursor: default;
         cursor: pointer;
+
+        @media ($down: $sm) {
+          height: 40px;
+          font-size: 16px;
+        }
       }
     }
   }
@@ -140,6 +176,9 @@
       width: 300px;
       height: 500px;
     }
+    @media ($down: $sm) {
+      height: 250px;
+    }
   }
 
   .about-section__inner--imgs--right {
@@ -152,6 +191,9 @@
       width: 220px;
       height: 400px;
     }
+    @media ($down: $sm) {
+      height: 200px;
+    }
   }
 
   .shop-section {
@@ -159,6 +201,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  .shop-section__title {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+
+    @media ($down: $sm) {
+      font-size: 32px;
+    }
   }
 
   .shop-section__inner {
@@ -200,6 +253,13 @@
   left: 0 !important;
   right: 0 !important;
   margin: auto !important;
+
+  @media ($down: $sm) {
+    height: 400px !important;
+    max-width: 400px !important;
+    width: 100% !important;
+    padding: 25px !important;
+  }
 }
 
 .close-modal-btn {
@@ -212,5 +272,31 @@
 
   &:hover {
     opacity: 0.7;
+  }
+}
+
+.modal-img-holder {
+  height: 600px;
+
+  @media ($down: $sm) {
+    height: 335px;
+  }
+}
+
+.link-btn.gallery-section {
+  @media ($down: $sm) {
+    font-size: 14px;
+  }
+}
+
+.contact-title {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 35px;
+
+  @media ($down: $sm) {
+    font-size: 26px;
   }
 }

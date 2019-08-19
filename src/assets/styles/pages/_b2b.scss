@@ -12,6 +12,10 @@
   max-width: 1260px;
   display: flex;
   justify-content: space-between;
+
+  @media ($down: $sm) {
+    flex-wrap: wrap;
+  }
 }
 
 .b2b-box {
@@ -33,6 +37,9 @@
   @media ($down: $md) {
     padding: 25px;
     min-height: 400px;
+  }
+  @media ($down: $sm) {
+    margin-bottom: 30px;
   }
 }
 

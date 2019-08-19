@@ -32,6 +32,9 @@
   @media ($down: $md) {
     padding: 0 20px;
   }
+  @media ($down: $sm) {
+    flex-wrap: wrap;
+  }
 }
 
 .about-journey__title {
@@ -65,6 +68,10 @@
   @media ($down: $md) {
     height: 450px;
   }
+  @media ($down: $sm) {
+    flex-direction: column;
+    height: 580px;
+  }
 }
 
 .mobile-app {
@@ -86,6 +93,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  &.apple {
+    margin-right: 25px;
+
+    @media ($down: $sm) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 .mobile-app__content {
@@ -128,5 +144,49 @@
 
   @media ($down: $md) {
     margin: 15px 0;
+  }
+}
+
+.about-journey__img-holder {
+  @media ($down: $sm) {
+    margin-top: 30px;
+  }
+
+  > img {
+    @media ($down: $sm) {
+      width: 100%;
+    }
+  }
+}
+
+.about__main-products--left {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media ($down: $sm) {
+    width: 100%;
+  }
+}
+
+.about__main-products--right {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media ($down: $sm) {
+    width: 100%;
+  }
+}
+
+.аpp-links-holder {
+  @media ($down: $sm) {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
   }
 }

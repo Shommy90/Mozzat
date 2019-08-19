@@ -5,6 +5,10 @@
   padding: 10px 0;
   height: 700px;
 
+  @media ($down: $sm) {
+    height: 600px;
+  }
+
   .carousel__inner-slide {
     margin: 0 auto;
     max-width: 900px;
@@ -18,6 +22,9 @@
       align-items: center;
       justify-content: center;
     }
+    @media ($down: $sm) {
+      height: 100%;
+    }
 
     img {
       width: auto;
@@ -25,6 +32,9 @@
       @media ($down: $md) {
         width: 100%;
         height: max-content;
+      }
+      @media ($down: $sm) {
+        height: auto;
       }
     }
   }
@@ -43,12 +53,19 @@
     @media ($down: $md) {
       padding: 0 50px;
     }
+    @media ($down: $sm) {
+      height: 400px;
+    }
   }
 
   .carousel-btn__back {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+
+    @media ($down: $sm) {
+      left: 5px;
+    }
 
     i {
       padding-right: 3px;
@@ -71,12 +88,21 @@
     align-items: center;
     justify-content: center;
     padding: 0;
+
+    @media ($down: $sm) {
+      width: 40px;
+      height: 40px;
+    }
   }
 
   .carousel-btn__next {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+
+    @media ($down: $sm) {
+      right: 5px;
+    }
 
     i {
       padding-left: 3px;
@@ -90,6 +116,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
+    @media ($down: $md) {
+      flex-wrap: wrap;
+    }
   }
 
   .carousel__dot {
@@ -108,9 +138,18 @@
       padding: 20px 20px;
       font-size: 20px;
     }
+    @media ($down: $sm) {
+      padding: 15px;
+    }
   }
 
   .carousel__dot--selected {
     border-bottom: 4px solid #fff;
+  }
+}
+
+.horizontalSlider___281Ls {
+  @media ($down: $sm) {
+    height: 400px !important;
   }
 }

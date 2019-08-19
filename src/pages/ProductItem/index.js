@@ -37,7 +37,7 @@ const ProductItem = props => {
         </div>
       </div>
 
-      <div className="container flex">
+      <div className="container flex product-item__holder">
         <div className="product-item__left">
           <div className="product-item__img-holder">
             <img src={productItem} alt="product" />

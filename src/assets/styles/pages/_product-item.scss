@@ -5,6 +5,10 @@
   .product-item__left,
   .product-item__right {
     width: 50%;
+
+    @media ($down: $sm) {
+      width: 100%;
+    }
   }
 
   .product-item__right {
@@ -12,6 +16,9 @@
 
     @media ($down: $md) {
       padding: 0 15px;
+    }
+    @media ($down: $sm) {
+      margin-top: 20px;
     }
   }
 
@@ -128,5 +135,11 @@
     &:disabled {
       opacity: 0.5;
     }
+  }
+}
+
+.product-item__holder {
+  @media ($down: $sm) {
+    flex-wrap: wrap;
   }
 }

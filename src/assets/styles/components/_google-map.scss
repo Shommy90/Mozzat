@@ -30,6 +30,9 @@
       left: 20px;
       min-height: 400px;
     }
+    @media ($down: $sm) {
+      display: none;
+    }
   }
 
   .shop-info__title {

@@ -51,12 +51,8 @@ const About = () => {
               </p>
             </div>
 
-            <div>
-              <img
-                src={journeyLogo}
-                alt="journey logo"
-                style={{ width: "auto" }}
-              />
+            <div className="about-journey__img-holder">
+              <img src={journeyLogo} alt="journey logo" />
             </div>
           </div>
         </div>
@@ -64,24 +60,16 @@ const About = () => {
 
       <div className="about__main-products flex">
         <div
+          className="about__main-products--left"
           style={{
-            width: "50%",
-            height: "100%",
-            backgroundImage: `url(${mainProdLeft})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
+            backgroundImage: `url(${mainProdLeft})`
           }}
         />
 
         <div
+          className="about__main-products--right"
           style={{
-            width: "50%",
-            height: "100%",
-            backgroundImage: `url(${mainProdRight})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
+            backgroundImage: `url(${mainProdRight})`
           }}
         >
           <div
@@ -138,7 +126,12 @@ const About = () => {
               </div>
 
               <h2
-                style={{ fontSize: "46px", fontWeight: "500", color: "#fff" }}
+                style={{
+                  fontSize: "46px",
+                  fontWeight: "500",
+                  color: "#fff",
+                  textAlign: "center"
+                }}
               >
                 MOZZAT <span style={{ fontWeight: "600" }}>MOBILE APP!</span>
               </h2>
@@ -151,14 +144,13 @@ const About = () => {
                 />
               </div>
 
-              <div className="flex">
+              <div className="flex аpp-links-holder">
                 <Link
                   to="#"
-                  className="mobile-app-bg"
+                  className="mobile-app-bg apple"
                   style={{
                     display: "block",
-                    backgroundImage: `url(${appStoreIcon})`,
-                    marginRight: "25px"
+                    backgroundImage: `url(${appStoreIcon})`
                   }}
                 />
                 <Link
