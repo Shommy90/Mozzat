@@ -39,9 +39,12 @@
 
 /* General sidebar styles */
 .bm-menu {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  background-image: url("../images/contact-section-bg.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -77,9 +80,9 @@
 
   a {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
     display: block;
     padding: 10px 0;
 

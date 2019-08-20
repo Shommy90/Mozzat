@@ -13,7 +13,6 @@ class MobileHeader extends React.Component {
 
   handleStateChange = state => {
     this.setState({ isMenuOpen: state.isOpen });
-    console.log("link clicked", this.state.isMenuOpen);
   };
 
   closeMenu = () => {

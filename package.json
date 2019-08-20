@@ -2,7 +2,8 @@
   "name": "mozzat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shommy90.github.io/Mozzat",
+  // "homepage": "https://shommy90.github.io/Mozzat",
+  "homepage": "https://mozzat.com.sa/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
