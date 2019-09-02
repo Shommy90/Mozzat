@@ -138,10 +138,10 @@
 
       @media ($down: $md) {
         padding: 40px 0;
-      }
 
-      > .container {
-        flex-direction: column;
+        > .container {
+          flex-direction: column;
+        }
       }
     }
   }
@@ -172,9 +172,11 @@
     width: 427px;
     height: 702px;
 
+    @media ($down: $lg) {
+      height: 500px;
+    }
     @media ($down: $md) {
       width: 300px;
-      height: 500px;
     }
     @media ($down: $sm) {
       height: 250px;
@@ -186,10 +188,12 @@
     width: 318px;
     height: 573px;
 
+    @media ($down: $lg) {
+      height: 400px;
+    }
     @media ($down: $md) {
       margin-right: 0;
       width: 220px;
-      height: 400px;
     }
     @media ($down: $sm) {
       height: 200px;
