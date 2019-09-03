@@ -8,6 +8,12 @@
   color: white;
   z-index: 9999;
 
+  .follow-us {
+    @media ($down: $sm) {
+      display: none;
+    }
+  }
+
   .footer-socials {
     li {
       margin: 0 5px;

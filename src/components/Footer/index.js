@@ -15,7 +15,7 @@ const Footer = () => {
         </p>
 
         <div className="footer-socials flex align-center">
-          <div style={{ marginRight: 15 }}>
+          <div className="follow-us" style={{ marginRight: 15 }}>
             <img src={followUsImg} alt="follow us" />
           </div>
           <Socials />

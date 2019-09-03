@@ -171,6 +171,7 @@
     margin-right: 30px;
     width: 427px;
     height: 702px;
+    overflow: hidden;
 
     @media ($down: $lg) {
       height: 500px;
@@ -187,6 +188,7 @@
     margin-right: 30px;
     width: 318px;
     height: 573px;
+    overflow: hidden;
 
     @media ($down: $lg) {
       height: 400px;
@@ -247,10 +249,10 @@
 .ReactModal__Content {
   // border: 1px solid rgb(0, 0, 0) !important;
   // background: rgb(0, 0, 0) !important;
-  overflow: auto;
+  overflow: hidden !important;
   border-radius: 10px !important;
   outline: none;
-  padding: 30px !important;
+  padding: 25px !important;
   max-width: 700px !important;
   width: 100% !important;
   height: 700px !important;
