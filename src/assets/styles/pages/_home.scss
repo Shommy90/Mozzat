@@ -292,7 +292,12 @@
 }
 
 .modal-img-holder {
-  height: auto;
+  height: 100%;
+  overflow: hidden;
+
+  > img {
+    height: 100%;
+  }
 }
 
 .link-btn.gallery-section {
