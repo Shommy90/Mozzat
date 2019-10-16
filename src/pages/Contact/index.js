@@ -30,17 +30,7 @@ const Contact = () => {
         <div className="any-questions">
           <img src={anyQuestions} alt="any questions" />
         </div>
-        <h3
-          className="be-free-title"
-          style={{
-            fontSize: "36px",
-            fontWeight: "500",
-            textAlign: "center",
-            marginBottom: "50px"
-          }}
-        >
-          BE FREE AND CONTACT US
-        </h3>
+        <h3 className="be-free-title">BE FREE AND CONTACT US</h3>
 
         <div
           className="contact-holder-bg"
