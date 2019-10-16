@@ -57,15 +57,10 @@ const Home = () => {
         style={{ backgroundImage: `url(${recipesBg})` }}
       >
         <div className="recipes-inner-bg">
-          <div style={{ width: "111px", height: "55px", margin: "0 auto" }}>
+          <div className="recipes-inner__title">
             <img src={ourRecipes} alt="recipes" />
           </div>
-          <h2
-            className="section-title"
-            style={{ textAlign: "center", color: "#fff" }}
-          >
-            recipes
-          </h2>
+          <h2 className="section-title">recipes</h2>
         </div>
       </div>
 
@@ -78,25 +73,11 @@ const Home = () => {
         <div className="about-section__inner">
           <div className="container flex align-center">
             <div className="about-section__inner--txt">
-              <h4
-                style={{
-                  fontSize: "42px",
-                  fontWeight: "500",
-                  marginBottom: "40px",
-                  textAlign: "center"
-                }}
-              >
-                Few words <span style={{ fontWeight: "700" }}>about us</span>
+              <h4>
+                Few words <span>about us</span>
               </h4>
 
-              <p
-                style={{
-                  marginBottom: "80px",
-                  fontSize: "30px",
-                  lineHeight: "1.1em",
-                  textAlign: "center"
-                }}
-              >
+              <p>
                 Mozzat established in Saudi Arabia, Riyadh in 2018 and our
                 objectives is to provide the best quality of local and imported
                 meat and poultry in our shops. Our meats are carefully selected
@@ -129,14 +110,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${shopSectionBg})` }}
       >
         <div className="shop-section__inner">
-          <div
-            style={{
-              maxWidth: "362px",
-              width: "100%",
-              height: "57px",
-              margin: "0 auto"
-            }}
-          >
+          <div className="shop-section__inner-title">
             <img src={foodCollection} alt="food collection" />
           </div>
 
@@ -168,14 +142,7 @@ const Home = () => {
             minHeight: "590px"
           }}
         >
-          <div
-            style={{
-              width: "270px",
-              height: "58px",
-              margin: "0 auto",
-              marginBottom: "-15px"
-            }}
-          >
+          <div className="contact-main-title">
             <img src={anyQuestions} alt="any questions" />
           </div>
           <h3 className="contact-title">BE FREE AND CONTACT US</h3>

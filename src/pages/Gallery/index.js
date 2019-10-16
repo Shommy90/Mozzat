@@ -39,10 +39,7 @@ const Gallery = () => {
         style={{ backgroundImage: `url(${galleryBg})` }}
       >
         <div className="dark-bg">
-          <div
-            className="header-title-holder"
-            style={{ paddingBottom: "70px" }}
-          >
+          <div className="header-title-holder">
             <div style={{ display: "inline-block" }}>
               <img src={galleryTitle} alt="title" />
             </div>

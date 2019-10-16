@@ -47,6 +47,10 @@
     margin-bottom: 30px;
     text-align: center;
   }
+  @media ($down: $sm) {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
 }
 
 .about-journey__txt {
@@ -60,6 +64,10 @@
     line-height: 32px;
     text-align: center;
   }
+  @media ($down: $sm) {
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
 .about__main-products {
@@ -71,6 +79,18 @@
   @media ($down: $sm) {
     flex-direction: column;
     height: 580px;
+  }
+}
+
+.about__main-products-title {
+  margin-bottom: 30px;
+  font-size: 46px;
+  font-weight: 400;
+  color: #fff;
+
+  @media ($down: $sm) {
+    font-size: 34px;
+    margin-bottom: 20px;
   }
 }
 
@@ -93,6 +113,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media ($down: $sm) {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 60px;
+  }
 
   &.apple {
     margin-right: 25px;
@@ -188,5 +214,27 @@
     flex-wrap: wrap;
     padding: 0 20px;
     justify-content: center;
+  }
+}
+
+.mobile-app-title {
+  font-size: 46px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+
+  @media ($down: $sm) {
+    font-size: 30px;
+  }
+}
+
+.coming-soon-title {
+  width: auto;
+  margin-bottom: -15px;
+
+  @media ($down: $sm) {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
   }
 }

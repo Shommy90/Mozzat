@@ -1,0 +1,9 @@
+.products-section-title {
+  width: 311px;
+  height: 82px;
+
+  @media ($down: $sm) {
+    width: 225px;
+    height: 60px;
+  }
+}

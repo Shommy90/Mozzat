@@ -27,17 +27,11 @@ const Contact = () => {
       <GoogleMap />
 
       <div className="contact-wrapper">
-        <div
-          style={{
-            width: "270px",
-            height: "58px",
-            margin: "0 auto",
-            marginBottom: "-15px"
-          }}
-        >
+        <div className="any-questions">
           <img src={anyQuestions} alt="any questions" />
         </div>
         <h3
+          className="be-free-title"
           style={{
             fontSize: "36px",
             fontWeight: "500",

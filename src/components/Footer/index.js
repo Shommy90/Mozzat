@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className="footer flex align-center">
       <div className="container-wide flex justify-between align-center">
-        <p style={{ fontStyle: "italic", fontWeight: 300 }}>
+        <p className="footer-txt">
           © 2019{" "}
           <span style={{ color: "#bc2631", fontWeight: 600, fontSize: 20 }}>
             MOZZAT
           </span>{" "}
-          All Rights Reserved
+          <span className="footer-txt__rights">All Rights Reserved</span>
         </p>
 
         <div className="footer-socials flex align-center">

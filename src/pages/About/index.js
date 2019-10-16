@@ -26,7 +26,7 @@ const About = () => {
         <div className="dark-bg">
           <div className="header-title-holder">
             <div style={{ display: "inline-block" }}>
-              <img src={aboutTitle} alt="title" />
+              <img className="header-title-img" src={aboutTitle} alt="title" />
             </div>
           </div>
         </div>
@@ -83,14 +83,7 @@ const About = () => {
                 style={{ width: "auto", marginBottom: "10px" }}
               />
 
-              <h2
-                style={{
-                  marginBottom: "30px",
-                  fontSize: "46px",
-                  fontWeight: "400",
-                  color: "#fff"
-                }}
-              >
+              <h2 className="about__main-products-title">
                 MAIN <span style={{ fontWeight: "500" }}>PRODUCTS</span>
               </h2>
 
@@ -119,20 +112,13 @@ const About = () => {
             <div className="mobile-app__content--txt flex flex-col justify-center align-center">
               <div>
                 <img
+                  className="coming-soon-title"
                   src={comingSoonTitle}
                   alt="soon title"
-                  style={{ width: "auto", marginBottom: "-15px" }}
                 />
               </div>
 
-              <h2
-                style={{
-                  fontSize: "46px",
-                  fontWeight: "500",
-                  color: "#fff",
-                  textAlign: "center"
-                }}
-              >
+              <h2 className="mobile-app-title">
                 MOZZAT <span style={{ fontWeight: "600" }}>MOBILE APP!</span>
               </h2>
 

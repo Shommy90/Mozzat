@@ -8,6 +8,21 @@
   color: white;
   z-index: 9999;
 
+  .footer-txt {
+    font-style: italic;
+    font-weight: 300;
+
+    @media ($down: $sm) {
+      font-size: 14px;
+    }
+  }
+
+  .footer-txt__rights {
+    @media ($down: $sm) {
+      display: block;
+    }
+  }
+
   .follow-us {
     @media ($down: $sm) {
       display: none;
@@ -17,6 +32,10 @@
   .footer-socials {
     li {
       margin: 0 5px;
+
+      @media ($down: $sm) {
+        margin: 0 7px;
+      }
 
       &:hover {
         opacity: 0.8;
@@ -32,6 +51,12 @@
       height: 45px;
       background: $red;
       border-radius: 100%;
+
+      @media ($down: $sm) {
+        font-size: 18px;
+        width: 38px;
+        height: 38px;
+      }
     }
   }
 }

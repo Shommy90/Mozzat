@@ -64,48 +64,27 @@ class Products extends React.Component {
               className="flex justify-between align-center"
               style={{ maxWidth: "1100px", width: "100%", margin: "0 auto" }}
             >
-              <div
-                className="service-box"
-                style={{ padding: "0 20px", textAlign: "center" }}
-              >
-                <div style={{ marginBottom: "25px" }}>
-                  <img
-                    src={deliveryIcon}
-                    alt="service icon"
-                    style={{ width: "95px", height: "95px" }}
-                  />
+              <div className="service-box">
+                <div>
+                  <img src={deliveryIcon} alt="service icon" />
                 </div>
 
                 <p style={{ fontSize: "22px", color: "#fff" }}>
                   FAST <span style={{ fontWeight: "500" }}>DELIVERY</span>
                 </p>
               </div>
-              <div
-                className="service-box"
-                style={{ padding: "0 20px", textAlign: "center" }}
-              >
-                <div style={{ marginBottom: "25px" }}>
-                  <img
-                    src={checkoutIcon}
-                    alt="service icon"
-                    style={{ width: "95px", height: "95px" }}
-                  />
+              <div className="service-box">
+                <div>
+                  <img src={checkoutIcon} alt="service icon" />
                 </div>
 
                 <p style={{ fontSize: "22px", color: "#fff" }}>
                   SECURE <span style={{ fontWeight: "500" }}>CHECKOUT</span>
                 </p>
               </div>
-              <div
-                className="service-box"
-                style={{ padding: "0 20px", textAlign: "center" }}
-              >
-                <div style={{ marginBottom: "25px" }}>
-                  <img
-                    src={memberIcon}
-                    alt="service icon"
-                    style={{ width: "95px", height: "95px" }}
-                  />
+              <div className="service-box">
+                <div>
+                  <img src={memberIcon} alt="service icon" />
                 </div>
 
                 <p style={{ fontSize: "22px", color: "#fff" }}>

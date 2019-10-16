@@ -99,6 +99,12 @@ a {
     background: #000;
     color: #fff;
   }
+
+  @media ($down: $sm) {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
 }
 
 .section-title {
@@ -106,6 +112,13 @@ a {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+  @media ($down: $sm) {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
 }
 
 .button {
@@ -131,6 +144,12 @@ a {
   &:hover {
     background: darken($red, 10%);
   }
+
+  @media ($down: $sm) {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+  }
 }
 
 .page-header {
@@ -139,6 +158,18 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #000;
+
+  @media ($down: $sm) {
+    height: 300px;
+  }
+
+  &.b2b {
+    height: 550px;
+
+    @media ($down: $sm) {
+      height: 400px;
+    }
+  }
 }
 
 .dark-bg {
@@ -152,4 +183,22 @@ a {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 100px;
+
+  @media ($down: $sm) {
+    padding-bottom: 45px;
+  }
+
+  img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &.b2b {
+    padding-bottom: 150px;
+
+    @media ($down: $sm) {
+      padding-bottom: 120px;
+    }
+  }
 }

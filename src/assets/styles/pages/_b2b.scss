@@ -18,6 +18,17 @@
   }
 }
 
+.b2b-subtitle {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  padding: 0 50px;
+
+  @media ($down: $sm) {
+    font-size: 22px;
+  }
+}
+
 .b2b-box {
   max-width: 600px;
   width: 100%;

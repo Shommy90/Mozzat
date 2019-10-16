@@ -52,8 +52,8 @@ const ProductsSection = () => {
             style={{ marginBottom: "50px", paddingTop: "150px" }}
           >
             <img
+              className="products-section-title"
               src={productsTitle}
-              style={{ width: "311px", height: "82px" }}
               alt="products title"
             />
           </div>

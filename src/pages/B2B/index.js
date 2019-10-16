@@ -11,14 +11,11 @@ const B2B = () => {
   return (
     <div className="b2b content">
       <div
-        className="page-header"
-        style={{ backgroundImage: `url(${b2bBg})`, height: "550px" }}
+        className="page-header b2b"
+        style={{ backgroundImage: `url(${b2bBg})` }}
       >
         <div className="dark-bg">
-          <div
-            className="header-title-holder flex flex-col align-center justify-end"
-            style={{ paddingBottom: "150px" }}
-          >
+          <div className="header-title-holder b2b flex flex-col align-center justify-end">
             <div
               style={{
                 display: "inline-block",
@@ -29,14 +26,7 @@ const B2B = () => {
               <img src={b2bTitle} alt="title" />
             </div>
 
-            <p
-              style={{
-                fontSize: "30px",
-                color: "#fff",
-                textAlign: "center",
-                padding: "0 50px"
-              }}
-            >
+            <p className="b2b-subtitle">
               Thank for reaching us our sales team would be happy to contact
             </p>
           </div>
